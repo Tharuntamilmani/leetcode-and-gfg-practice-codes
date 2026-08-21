@@ -7,7 +7,6 @@ class Solution {
         int c=st.pop();
         reverseStack(st);
         insertAtBottom(st,c);
-        
     }
     public static Stack<Integer> insertAtBottom(Stack<Integer> st, int x) {
         // code here
