@@ -28,6 +28,6 @@ public class countnodes {
         root.right.left=new node(9);
         root.right.right=new node(10);
         root.right.right.right=new node(0);
-        System.out.println("Tree successfully constructed with no errors!");
+        System.out.println(countAllNodes(root));
     }
 }
